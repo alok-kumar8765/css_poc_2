@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <!--This meta redirect to google afte 30 sec-->
+        <!-- <meta http-equiv="refresh" content="30"> -->
+        <!-- <meta http-equiv="refresh" content="30;https://google.com"> -->
+    </head>
+    <!--Disable Right click on whole web site-->
+    <!-- <body oncontextmenu="return false"> -->
+    <body>
+        <!--This input help to reconize voice in phone(Lolipop)-->
+        <input type="text" x-webkit-speech />
+        <!--Disable Right Click on specific element-->
+        <section oncontextmenu="return false">Not Allowed</section>
+        <!--Add Color Picker-->
+        <b>Color Picker in input field:</b>
+        <input type="color">
+        <!--Open back facing camera to take a video-->
+        <input type="file" capture="environment" accept="video/*">
+        <!--Open front facing camera to take photo-->
+        <input type="file" capture="user" accept="image/*"/>
+    </body>
+</html>
